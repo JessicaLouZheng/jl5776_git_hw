@@ -1,0 +1,421 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<subject>\n",
+    "Assignment How-To\n",
+    "</subject>\n",
+    "\n",
+    "<details>\n",
+    "    \n",
+    "**Do Not Talk During Quizzes or Exams**\n",
+    "\n",
+    "Do not talk at all once an exam has begun. You may talk again once you leave the room after the quiz or exam. The one exception to this rule is if you need to ask the exam proctor a question. Any talking during a quiz or exam qualifies the student for disciplinary action.\n",
+    "\n",
+    "**Naming Conventions**\n",
+    "\n",
+    "When naming your files for upload, you must follow the format below:\n",
+    "\n",
+    "    <uni>_<assignment>_<details [optional]>.<extension>\n",
+    "\n",
+    "For example, if I needed to hand in HW 0, any of the below formats would be sufficient for a file name:\n",
+    "\n",
+    "- pl2648_hw0.ipynb\n",
+    "- pl2648_hw0.txt\n",
+    "- pl2648_hw0.sh\n",
+    "- pl2648_hw0_all_in_one.txt\n",
+    "- Pl2648_hw0_bash_program.sh\n",
+    "- Pl2648_quiz1.ipynb\n",
+    "\n",
+    "This naming format allows for autograding of all assignments. If your files are not named with this format, you should expect a grade of zero for the assignment.\n",
+    "\n",
+    "Courseworks may rename your file to something like `pl2648_hw0-1.ipynb` if you resubmit your assignment. This is perfectly fine.\n",
+    "\n",
+    "**What Format To Submit In**\n",
+    "\n",
+    "Most homework and quizzes are in Jupyter notebooks. Unless specified otherwise, please download your work as an `.ipynb` file from your local machine and upload it to courseworks.\n",
+    "\n",
+    "\n",
+    "**Grading**\n",
+    "\n",
+    "Possible points on late assignments are deducted by 50% for each day they are late. For example, if you get 80% of the total possible credits on a homework but hand in that homework a day late, you would get 40%. Assignments two days late get zero points.\n",
+    "\n",
+    "Once solutions are posted and graded assignments are handed back, students have 1 week to bring their grading discrepancies to a CA for consideration of possible grading errors. \n",
+    "\n",
+    "Because grading is automated, please delete (or comment out) the `raise NotImplmeneted` code before attempting a problem. \n",
+    "\n",
+    "Empty un-editable cells in an assignment are there for a purpose. They will be filled with tests by the automatic grader. Please do not attempt to remove them.\n",
+    "\n",
+    "**Getting Help**\n",
+    "\n",
+    "Asking for help is a great way to increase your chance of success. However there are some rules. When asking for help (especially from a fellow student), *you can show your helper your code but you can not view theirs*. You work needs to be your own. You can not post screenshots of your current work to Piazza or other tools used for getting help.\n",
+    "\n",
+    "If you need to reach out to a CA for help, please do so via Piazza and not via email. Answers given via Piazza will help you as well as other students. Thus, emails will always have a lower priority for response than Piazza questions. If you do email the CA, please make a note of what section you are in. This helps us identify you in courseworks faster. \n",
+    "\n",
+    "Finally, if you do not get a repsonse from a CA within 48 hours, you may email the professor.\n",
+    "\n",
+    "**Multiple Choice**\n",
+    "\n",
+    "If the question is multiple choice, you will be given several options to choose from and your function will need to return **one** of those options **verbatim** as a string.\n",
+    "\n",
+    "For example: \n",
+    "\n",
+    "Which of the following animals bark?\n",
+    "\n",
+    "- dogs\n",
+    "- cats\n",
+    "- fish\n",
+    "- trees\n",
+    "\n",
+    "A correct answer would be structured in the following way:\n",
+    "\n",
+    "```python\n",
+    "def question_animals():\n",
+    "    return 'dogs'\n",
+    "```\n",
+    "\n",
+    "You answer will be stripped of left and right white space and lowercased before comparison to the correct answer during grading.\n",
+    "</details>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "5a3d4ef026c76eef3d6a98a744c7fa03",
+     "grade": false,
+     "grade_id": "cell-39a01173d537a81d",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "This homework is worth 3 points:\n",
+    "\n",
+    "- Repo created on GitHub.com [1 point]\n",
+    "- Repo has three files (txt, csv, jpg) [1 point]\n",
+    "- Repo has at least one merge commit [1 point]\n",
+    "\n",
+    "Please note!!! Despite the statements of \"YOUR ANSWER HERE\" in this file, nothing needs to be placed into this file nor does this file need to be submitted. You ONLY need to submit what is asked for in the last step of this problem set (a URL). "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "6c8d658b9ab01f11ca795b5c200c3772",
+     "grade": false,
+     "grade_id": "cell-4a9d2ce29d8acc18",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "1. Create an empty directory named `<uni>_git_hw`. Initialize the directory into a Git repo."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "e5f4032573a3ed878dbc4011fb012313",
+     "grade": true,
+     "grade_id": "cell-9e74dd41a56f4e03",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "347f87f50da79f037beeeb81faeea335",
+     "grade": false,
+     "grade_id": "cell-bf4a882d4a858d96",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "2. Add a text file, a csv file, and an image file to that repo and commit your changes. \n",
+    "\n",
+    "The files can be named whatever you would like and can contain whatever you like but the extensions should be \"txt\", \"csv\", and \"png\" (or jpg) respectively. The txt and csv file you should be able to create on the VM with a command line based text editor. The png (or jpg) file will require you to make a web request from the command line."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "c3cb79b1d305c9fa896bb045b2111470",
+     "grade": true,
+     "grade_id": "cell-2207a8b5540cbb44",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "b0d3feb87aba24a93c5acd662dbd2ff7",
+     "grade": false,
+     "grade_id": "cell-48e2fc645e1b33e3",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "3. Change the contents of the text file in any way you. Commit your changes."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "413e72ee0e7610892e39ccd7456f5699",
+     "grade": true,
+     "grade_id": "cell-6b1785e2851edb34",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "0db8056e70e0b46ab09bc10d263375c0",
+     "grade": false,
+     "grade_id": "cell-e65f6f0571302708",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "4. Create a branch named feature1. Change to that branch and make a change to the csv file. Commit your changes. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "a86e9b66a124eec19c90e3dd1e500911",
+     "grade": true,
+     "grade_id": "cell-8994474791f592b2",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "e5d3fb362c9d95a5fa365dffe89b1d42",
+     "grade": false,
+     "grade_id": "cell-39a9e06ea755b5bf",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "5. Switch back to the master branch and make a different change to the csv file. Commit your changes."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "6f4ba9603d549f52ec4506e52914db2f",
+     "grade": true,
+     "grade_id": "cell-230da14cf342cc30",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "f08a9349831ea33d8bb0af4e8346da78",
+     "grade": false,
+     "grade_id": "cell-64f9a3dccba322fb",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "6. Merge the feature1 branch into the master branch. Handle any merge conflicts by keeping both sets of changes (one set from each branch)."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "bd37dbbb6e3c2034fda401b83bc12181",
+     "grade": true,
+     "grade_id": "cell-f3edbac8c5bb23f5",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true
+    }
+   },
+   "source": [
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "40c83964788ea8f4cf26274195bbf41e",
+     "grade": false,
+     "grade_id": "cell-63cedaffb466bd16",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "7. Create a repo on GitHub.com. Push your local repository to GitHub.com."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "39bc35ccbc76f3ed477422b28f070a7d",
+     "grade": true,
+     "grade_id": "cell-3a2e8a8aad868e99",
+     "locked": false,
+     "points": 0,
+     "schema_version": 3,
+     "solution": true
+    }
+   },
+   "source": [
+    "\n",
+    "\n",
+    "YOUR ANSWER HERE"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "nbgrader": {
+     "cell_type": "markdown",
+     "checksum": "ccafcb4edd9bd6818520da9c0cd4e89a",
+     "grade": false,
+     "grade_id": "cell-df3fd4296124a6e0",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false
+    }
+   },
+   "source": [
+    "8. Submit the **https** URL to your public repo (found on GitHub.com) on courseworks.\n",
+    "\n",
+    "This URL is the URL of the form: `https://github.com/<user name>/<project>.git`. This is not the `git@github.com...` URL that we use for cloning a repo with SSH."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
